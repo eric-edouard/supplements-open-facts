@@ -4,8 +4,10 @@ paper: 10.1038/s41586-2024-00002
 biomarker: testosterone
 direction: positive
 strength: moderate
-dosage_min: 5
-dosage_max: 10
+dosage:
+  min: 5
+  max: 10
+  unit: "gram"
 timing: morning
 paper_quotes:
   abstract:

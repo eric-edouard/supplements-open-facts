@@ -7,5 +7,7 @@ kind: intended
 direction: positive
 description: "Test effect description"
 strength: strong
-dosage_min: 3
-dosage_max: 5
+dosage:
+  min: 3
+  max: 5
+  unit: "gram"

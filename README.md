@@ -31,7 +31,7 @@ supplements-open-facts/
 │           └─ addiction-withdrawal/
 ├─ vocab/                      # controlled term lists
 │   ├─ effects.yml             # list of effects slugs
-│   └─ biomarkers/yml          # list of biomakers slugs
+│   └─ biomarkers.yml          # list of biomarker slugs
 ├─ schemas/                    # JSON Schemas used by CI
 └─ .github/                    # CI workflows & templates
 ```
@@ -441,8 +441,12 @@ change_percent: 120
 
 
 ```yaml
+created: 2025-05-18
+contributor: alice@example.com
+paper: 10.1038/s41586-2024-00001
+
 threshold_amount: 1000
-effect: ↑ gastrointestinal distress
+effect: gastrointestinal-distress
 population: adults
 ```
 
