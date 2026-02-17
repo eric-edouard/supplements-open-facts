@@ -1,0 +1,14 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1038/s41387-024-00289-z
+paper_quotes:
+  abstract:
+    - Our analysis focused on established MetS diagnostic criteria, including systolic blood pressure (SBP), diastolic blood pressure (DBP), fasting blood glucose (FBG), triglyceride (TG), and high-density lipoprotein cholesterol (HDL-C)
+    - The daily dosage of taurine in the studies ranged from 0.5 g/day to 6 g/day, with follow-up periods varying between 5 and 365 days
+biomarker: hemoglobin-a1c
+direction: decrease
+strength: moderate
+dosage:
+  unit: milligram
+  min: 500
+  max: 6000

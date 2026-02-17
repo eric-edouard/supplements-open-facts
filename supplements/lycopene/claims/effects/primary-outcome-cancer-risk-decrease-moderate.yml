@@ -1,0 +1,15 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.3389/fnut.2025.1516048
+paper_quotes:
+  abstract:
+    - "High intakes and high levels of lycopene compared to low amounts were,
+      respectively, associated with 5% (Pooled RR: 0.95, 95% CI: 0.92–0.98, I2 =
+      26.4%, p = 0.002) and 11% (Pooled RR: 0.89, 95% CI: 0.84–0.95, I2 = 15.0%,
+      p < 0.001) reduction in overall cancer risk"
+    - Also, each 10 μg/dL increase in blood levels of lycopene was associated
+      with a 5% lower risk of overall cancer
+effect: cancer-risk
+study_role: primary-outcome
+direction: decrease
+strength: moderate

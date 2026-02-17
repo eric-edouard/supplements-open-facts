@@ -1,0 +1,13 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1001/jamanetworkopen.2020.25850
+
+paper_quotes:
+  abstract:
+    - "Supplementation with vitamin D3 reduced the incidence of advanced (metastatic or fatal) cancer in the overall cohort, with strongest risk reduction in individuals with normal weight and no reduction among individuals with overweight or obesity."
+    - "These findings suggest that vitamin D3 may reduce the risk of developing advanced cancer among adults without a diagnosis of cancer at baseline; this protective effect is apparent for those who have normal but not elevated body mass index."
+
+effect: advanced-cancer
+study_role: primary-outcome
+direction: decrease
+strength: moderate

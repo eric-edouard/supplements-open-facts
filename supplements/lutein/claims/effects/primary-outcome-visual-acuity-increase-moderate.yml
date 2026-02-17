@@ -1,0 +1,15 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1155/2015/564738
+paper_quotes:
+  abstract:
+    - Long-term lutein supplementation could increase serum lutein concentration, MPOD, and visual sensitivities of early AMD patients. 10 mg lutein daily might be an advisable long-term dosage for early AMD treatment.
+    - Supplementation with 20 mg lutein was the most effective in increasing MPOD and CS at 3 cycles/degree for the first 48 weeks.
+effect: visual-acuity
+study_role: primary-outcome
+direction: increase
+strength: moderate
+dosage:
+  unit: milligram
+  min: 10
+  max: 20

@@ -1,0 +1,19 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.18632/aging.203736
+paper_quotes:
+  abstract:
+    - Rejuvant®, a potential life-extending compound formulation with
+      alpha-ketoglutarate and vitamins, conferred an average 8 year reduction in
+      biological aging, after an average of 7 months of use, in the TruAge DNA
+      methylation test
+    - The results of this study suggest that Rejuvant® may be an effective
+      anti-aging supplement
+effect: healthspan
+study_role: primary-outcome
+direction: increase
+strength: strong
+dosage:
+  min: 1000
+  max: 1000
+  unit: gram

@@ -1,0 +1,14 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1038/s41598-024-54249-9
+paper_quotes:
+  abstract:
+    - Our results show that creatine induces changes in PCr/Pi, ATP, tCr/tNAA, prevents a drop in pH level, and improves cognitive performance and processing speed.
+    - subjects were orally administered a high single dose of creatinemonohydrate (0.35 g/kg) while performing cognitive tests during sleep deprivation
+effect: processing-speed
+study_role: primary-outcome
+direction: increase
+strength: strong
+dosage:
+  unit: g/kg
+  value: 0.35

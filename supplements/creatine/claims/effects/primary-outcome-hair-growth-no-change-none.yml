@@ -1,0 +1,14 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1080/15502783.2025.2495229
+paper_quotes:
+  abstract:
+    - This study was the first to directly assess hair follicle health following creatine supplementation, providing strong evidence against the claim that creatine contributes to hair loss.
+    - There were no significant differences in DHT levels, DHT-to-testosterone ratio, or hair growth parameters between the creatine and placebo groups.
+effect: hair-growth
+study_role: primary-outcome
+direction: no-change
+strength: none
+dosage:
+  unit: gram
+  value: 5

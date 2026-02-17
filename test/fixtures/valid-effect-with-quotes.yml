@@ -2,8 +2,8 @@ created: 2025-05-18
 contributor: alice@example.com
 paper: 10.1038/s41586-2024-00001
 effect: muscle-strength
-kind: intended
-direction: positive
+study_role: primary-outcome
+direction: increase
 description: "Increases maximal voluntary contraction force"
 strength: strong
 p_value: 0.02

@@ -1,0 +1,14 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.1371/journal.pgen.1007633
+paper_quotes:
+  abstract:
+    - We find that mutations in components of this cycle, methionine synthase
+      (metr-1) and S-adenosylmethionine synthetase (sams-1), completely abrogate
+      glycine-induced lifespan extension
+    - Taken together, these data uncover a novel role of glycine in the
+      deceleration of aging through its function in the methionine cycle
+effect: healthspan
+study_role: primary-outcome
+direction: increase
+strength: strong

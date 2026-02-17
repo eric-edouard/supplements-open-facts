@@ -1,0 +1,13 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1186/1550-2783-10-39
+paper_quotes:
+  abstract:
+    - A significant interaction (p < .05) existed for HCTL, with increases from BL to week 2 in PL, but not BET. Additionally, HCTL remained elevated at week 4 in PL, but not BET
+    - Six-weeks of betaine supplementation improved body composition, arm size, bench press work capacity, attenuated the rise in urinary HCTL
+biomarker: homocysteine
+direction: decrease
+strength: strong
+dosage:
+  unit: gram
+  value: 2500

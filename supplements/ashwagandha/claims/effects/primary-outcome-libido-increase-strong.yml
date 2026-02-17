@@ -1,0 +1,19 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1155/2015/284154
+paper_quotes:
+  abstract:
+    - The analysis indicates that treatment with HCARE leads to significantly
+      higher improvement, relative to placebo, in the FSFI Total score (p <
+      0.001), FSFI domain score for 'arousal' (p < 0.001), 'lubrication' (p <
+      0.001), 'orgasm' (p = 0.004), and 'satisfaction' (p < 0.001)
+    - The subjects consumed either HCARE or placebo capsules of 300mg twice
+      daily for 8 weeks
+effect: libido
+study_role: primary-outcome
+direction: increase
+strength: strong
+dosage:
+  unit: milligram
+  value: 600
+p_value: 0.001

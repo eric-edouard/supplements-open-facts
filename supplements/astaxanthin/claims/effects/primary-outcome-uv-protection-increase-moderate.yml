@@ -1,0 +1,17 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.3390/nu10070817
+paper_quotes:
+  abstract:
+    - The astaxanthin group showed increased MED compared with placebo. In
+      addition, the astaxanthin group had a reduced loss of skin moisture in the
+      irradiated area compared with placebo
+    - Astaxanthin seems protective against UV-induced skin deterioration and
+      helps maintain healthy skin in healthy people
+effect: uv-protection
+study_role: primary-outcome
+direction: increase
+strength: moderate
+dosage:
+  unit: milligram
+  value: 4

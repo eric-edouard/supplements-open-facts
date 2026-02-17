@@ -1,0 +1,13 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1080/10408398.2024.2387324
+
+paper_quotes:
+  abstract:
+    - "Random-effects meta-analyses found an overall significant effect of NMN supplementation in elevating blood NAD levels. However, most of the clinically relevant outcomes were not significantly different between NMN supplementation and control group"
+    - "our findings suggest that an exaggeration of the benefits of NMN supplementation may exist in the field"
+
+effect: glucose-control
+study_role: primary-outcome
+direction: no-change
+strength: none

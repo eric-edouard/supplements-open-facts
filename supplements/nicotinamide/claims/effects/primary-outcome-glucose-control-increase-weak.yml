@@ -1,0 +1,13 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1038/s41392-020-00311-7
+
+paper_quotes:
+  abstract:
+    - "Prolonged disequilibrium of NAD + metabolism disturbs the physiological functions, resulting in diseases including metabolic diseases, cancer, aging and neurodegeneration disorder"
+    - "NAD + -dependent enzymes are involved in physiology either by post-synthesis chemical modification of DNA, RNA and proteins"
+
+effect: glucose-control
+study_role: primary-outcome
+direction: increase
+strength: weak

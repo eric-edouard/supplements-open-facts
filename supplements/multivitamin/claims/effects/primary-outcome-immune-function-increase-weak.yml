@@ -1,0 +1,13 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.3390/nu12082447
+
+paper_quotes:
+  abstract:
+    - "MVM supplementation improved vitamin C and zinc status in blood and self-reported health-status without altering measures of immune function or status or vitamin D levels, suggesting that healthy older adults may benefit from MVM supplementation."
+    - "To test this hypothesis, we provided healthy older adults with either an MVM supplement formulated to improve immune function (Redoxon® VI, Singapore) or an identical, inactive placebo control to take daily for 12 weeks."
+
+effect: immune-function
+study_role: primary-outcome
+direction: increase
+strength: weak

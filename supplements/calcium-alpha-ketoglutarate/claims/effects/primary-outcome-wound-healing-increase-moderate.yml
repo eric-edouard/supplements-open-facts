@@ -1,0 +1,12 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.18632/aging.203736
+paper_quotes:
+  abstract:
+    - There are indeed several human clinical trials over the past few decades
+      that have shown that AKG helps with wound healing immunity and faster
+      recovery from surgeries
+effect: wound-healing
+study_role: primary-outcome
+direction: increase
+strength: moderate

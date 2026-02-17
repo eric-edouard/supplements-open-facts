@@ -1,0 +1,14 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1097/MOL.0000000000000862
+paper_quotes:
+  abstract:
+    - In cognitively healthy individuals with clinical coronary artery disease (CAD), 3.36 g EPA and DHA daily slowed cognitive ageing by 2.5 years.
+    - Prospective studies and three new meta-analyses suggest that fish or n-3 PUFA intake are associated with a reduction in development of mild cognitive decline and Alzheimer's disease.
+effect: neuroprotection
+study_role: primary-outcome
+direction: increase
+strength: moderate
+dosage:
+  unit: gram
+  value: 3.36

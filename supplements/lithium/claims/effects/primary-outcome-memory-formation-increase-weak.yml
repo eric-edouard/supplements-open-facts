@@ -1,0 +1,17 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1186/s40345-020-00188-z
+paper_quotes:
+  abstract:
+    - After 2 years, while cognition remained stable in lithium treated
+      patients, as evidenced by common cognition scales, patients receiving
+      placebo exhibited continuous decline
+    - 4 years into the study, five out of 31 subjects in the lithium group and 9
+      out of 30 under placebo had progressed to dementia
+    - a double-blind, placebo-controlled trial of low-dose lithium among
+      patients with mild cognitive impairment (MCI) aimed at slowing cognitive
+      decline
+effect: memory-formation
+study_role: primary-outcome
+direction: increase
+strength: weak

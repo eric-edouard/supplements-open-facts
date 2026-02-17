@@ -1,0 +1,17 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1002/ctm2.372
+paper_quotes:
+  abstract:
+    - GlyNAC supplementation for 24 weeks in OA corrected RBC‐GSH deficiency,
+      OxS, and mitochondrial dysfunction; and improved inflammation, endothelial
+      dysfunction, insulin‐resistance, genomic‐damage, cognition, strength,
+      gait‐speed, and exercise capacity
+    - This pilot trial in OA was conducted to test the effect of GlyNAC
+      supplementation and withdrawal on intracellular GSH concentrations, OxS,
+      MFO, inflammation, endothelial function, genotoxicity, muscle and glucose
+      metabolism, body composition, strength, and cognition
+effect: muscle-strength
+study_role: primary-outcome
+direction: increase
+strength: moderate

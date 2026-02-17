@@ -1,0 +1,16 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1684/ejd.2021.4176
+paper_quotes:
+  abstract:
+    - After only 28 days, subjects in the active arm showed a statistically significant improvement in all evaluated dermatological parameters related to skin aging
+    - with a decrease in both wrinkle depth −18.8%) and volume (−17.6%) and increase in elasticity and firmness (+5.1%)
+    - 200 mg/day of FS-HA (ExceptionHYAL® Star), or placebo, for 28 days
+effect: wrinkles
+study_role: primary-outcome
+direction: decrease
+strength: strong
+timing: with-meal
+dosage:
+  unit: milligram
+  value: 200

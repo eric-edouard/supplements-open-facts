@@ -1,0 +1,18 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.3389/fphar.2021.819482
+paper_quotes:
+  abstract:
+    - RYR at 200–4800 mg daily appears to be a safe and effective treatment for
+      hyperlipidemia, effectively regulating blood lipid levels with an
+      exceptional impact on TG
+    - RYR is a commonly used lipid-lowering dietary supplements in Asian and
+      European countries, showing considerable benefits and low toxicity
+effect: cardiovascular-health
+study_role: primary-outcome
+direction: increase
+strength: strong
+dosage:
+  min: 200
+  max: 4800
+  unit: gram

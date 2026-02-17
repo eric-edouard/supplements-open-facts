@@ -1,0 +1,16 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.3390/antiox11030503
+paper_quotes:
+  abstract:
+    - thiol compounds can inhibit enzymatic activity by binding to copper ions
+      at the active site of TYR, and act as an antioxidant scavenging reactive
+      oxygen species and free radicals or as a modulator of redox balance,
+      thereby inhibiting overall melanin synthesis
+    - This review will cover the metabolic aspects of thiol compounds, the role
+      of thiol compounds in melanin synthesis, comparison of the antimelanogenic
+      effects of various thiol compounds
+effect: pigmentation-evenness
+study_role: primary-outcome
+direction: increase
+strength: moderate

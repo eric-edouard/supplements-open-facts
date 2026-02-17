@@ -90,11 +90,11 @@ function slugify(text: string): string {
 function generateExpectedFileName(data: any, claimType: string): string {
 	switch (claimType) {
 		case "effects":
-			const kind = data.kind || "unknown";
+			const studyRole = data.study_role || "unknown";
 			const effect = data.effect || "unknown";
 			const direction = data.direction || "unknown";
 			const strength = data.strength || "unknown";
-			return `${kind}-${effect}-${direction}-${strength}.yml`;
+			return `${studyRole}-${effect}-${direction}-${strength}.yml`;
 
 		case "biomarkers":
 			const biomarker = data.biomarker || "unknown";

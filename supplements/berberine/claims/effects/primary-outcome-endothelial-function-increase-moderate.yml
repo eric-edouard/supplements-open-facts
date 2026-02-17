@@ -1,0 +1,15 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.3389/fphar.2021.764175
+paper_quotes:
+  abstract:
+    - In atherosclerosis, endothelial cells (ECs) dysfunction, vascular smooth
+      muscle cells (VSMCs) migration and proliferation, foam cell formation, and
+      inflammatory cell recruitment contribute to disease progression
+    - Its pharmacological actions, such as antioxidation, regulation of
+      neurotransmitters and enzymes, and cholesterol-lowering effects, have been
+      substantiated
+effect: endothelial-function
+study_role: primary-outcome
+direction: increase
+strength: moderate

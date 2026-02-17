@@ -3,8 +3,8 @@ contributor: test@example.com
 paper: 10.1038/nature.2024.001
 
 effect: invalid-effect-name
-kind: intended
-direction: positive
+study_role: primary-outcome
+direction: increase
 description: "Test effect description"
 strength: strong
 dosage_min: 3

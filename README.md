@@ -67,7 +67,7 @@ created: 2025-01-15
 
 To keep the dataset clean, descriptive, and audit-friendly, every claim file follows this naming convention based on the claim content:
 
-**Effects:** `{kind}-{effect}-{direction}-{strength}.yml`
+**Effects:** `{study_role}-{effect}-{direction}-{strength}.yml`
 
 **Biomarkers:** `{biomarker}-{direction}-{strength}.yml`
 
@@ -87,16 +87,16 @@ To keep the dataset clean, descriptive, and audit-friendly, every claim file fol
 
 **Effects:**
 ```
-intended-muscle-strength-positive-strong.yml
-intended-sleep-quality-positive-moderate.yml
-adverse-nausea-negative-weak.yml
+primary-outcome-muscle-strength-increase-strong.yml
+primary-outcome-sleep-quality-increase-moderate.yml
+adverse-event-nausea-increase-weak.yml
 ```
 
 **Biomarkers:**
 ```
-blood-glucose-negative-strong.yml
-cortisol-negative-moderate.yml
-crp-negative-strong.yml
+blood-glucose-decrease-strong.yml
+cortisol-decrease-moderate.yml
+crp-decrease-strong.yml
 ```
 
 **Interactions:**
@@ -152,8 +152,8 @@ withdrawal-anxiety.yml
 ⚠️ **Handling duplicates:** If multiple claims have identical names, suffix with -2, -3, etc.
 
 ```
-intended-muscle-strength-positive-strong.yml
-intended-muscle-strength-positive-strong-2.yml
+primary-outcome-muscle-strength-increase-strong.yml
+primary-outcome-muscle-strength-increase-strong-2.yml
 ```
 
 ## Claim File Content - Common keys
@@ -205,8 +205,8 @@ paper_quotes:
 | key | req | notes |
 |-----|-----|-------|
 | `effect` | ✔︎ | slug from vocab/effects.yml |
-| `kind` | ✔︎ | intended / adverse / neutral |
-| `direction` | ✔︎ | positive / negative / neutral |
+| `study_role` | ✔︎ | primary-outcome / secondary-outcome / adverse-event |
+| `direction` | ✔︎ | increase / decrease / no-change |
 | `description` | - | Free text describing the effect observed. |
 | `strength` | ✔︎ | strong / moderate / weak / none (see Strength scale) |
 | `p_value` | - | positive / negative / neutral |
@@ -300,8 +300,8 @@ paper: 10.1038/s41586-2024-00001
 
 # Effect keys
 effect: muscle-strength
-kind: intended
-direction: positive
+study_role: primary-outcome
+direction: increase
 description: "Increases maximal voluntary contraction force"
 strength: strong
 p_value: 0.02
@@ -329,7 +329,7 @@ timing: pre-exercise
 | key | req | notes |
 |-----|-----|-------|
 | `biomarker` | ✔︎ | slug from vocab/biomarkers.yml |
-| `direction` | ✔︎ | positive / negative / neutral |
+| `direction` | ✔︎ | increase / decrease / no-change |
 | `strength` | - | If applicable: strong / moderate / weak / none (see Strength scale) |
 | `dosage` | - | structured object with min, max, and unit fields |
 | `onset_duration` | - | structured object indicating when effects begin |
@@ -344,7 +344,7 @@ paper: 10.1038/s41586-2024-00001
 
 # Biomarker keys
 biomarker: blood-pressure
-direction: positive
+direction: increase
 
 # Biomarker Dosage keys
 dosage:

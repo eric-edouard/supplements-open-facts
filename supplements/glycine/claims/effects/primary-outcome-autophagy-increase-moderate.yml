@@ -1,0 +1,14 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1111/acel.12953
+paper_quotes:
+  abstract:
+    - Elevated glycine led to a small (4%–6%) but statistically significant
+      lifespan increase, as well as an increase in maximum lifespan, in both
+      males (p = 0.002) and females (p < 0.001)
+    - Our glycine results strengthen the idea that modulation of dietary amino
+      acid levels can increase healthy lifespan in mice
+effect: autophagy
+study_role: primary-outcome
+direction: increase
+strength: moderate

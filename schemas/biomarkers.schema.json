@@ -13,7 +13,8 @@
 		"contributor": { "type": "string" },
 		"paper": { "type": "string" },
 		"biomarker": { "type": "string" },
-		"direction": { "enum": ["positive", "negative", "neutral"] },
+		"direction": { "enum": ["increase", "decrease", "no-change"] },
+		"study_role": { "enum": ["primary-outcome", "secondary-outcome", "adverse-event"] },
 		"strength": { "enum": ["strong", "moderate", "weak", "none"] },
 		"dosage": {
 			"type": "object",

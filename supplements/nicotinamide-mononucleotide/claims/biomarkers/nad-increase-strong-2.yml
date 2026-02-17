@@ -1,0 +1,12 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1038/s41467-018-03421-7
+
+paper_quotes:
+  abstract:
+    - "chronic supplementation with the NAD+ precursor vitamin, nicotinamide riboside (NR), is well tolerated and effectively stimulates NAD+ metabolism in healthy middle-aged and older adults"
+    - "nicotinamide riboside effectively elevates NAD+ levels in humans"
+
+biomarker: nad
+direction: increase
+strength: strong

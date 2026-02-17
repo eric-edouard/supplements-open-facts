@@ -1,0 +1,14 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1371/journal.pmed.0020135
+paper_quotes:
+  abstract:
+    - Meta-analysis have shown that taking up to 4 grams of TMG per day for 6 weeks can lower blood homocysteine in healthy adults
+biomarker: homocysteine
+direction: decrease
+strength: strong
+timing: with-meal
+dosage:
+  unit: gram
+  min: 1
+  max: 4

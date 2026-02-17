@@ -1,0 +1,18 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.3390/nu11102362
+paper_quotes:
+  abstract:
+    - For cognitive functions, verbal fluency and executive function scores
+      improved after L-theanine administration (p = 0.001 and 0.031,
+      respectively)
+    - L-theanine (200 mg/day) or placebo tablets were randomly and blindly
+      assigned for four-week administration
+effect: processing-speed
+study_role: primary-outcome
+direction: increase
+strength: moderate
+dosage:
+  min: 200
+  max: 200
+  unit: milligram

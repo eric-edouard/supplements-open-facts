@@ -1,0 +1,15 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1056/NEJMoa1107579
+paper_quotes:
+  abstract:
+    - The primary end point occurred in 282 patients in the niacin group (16.4%) and in 274 patients in the placebo group (16.2%) (hazard ratio, 1.02; 95% confidence interval, 0.87 to 1.21; P=0.79 by the log-rank test)
+    - Among patients with atherosclerotic cardiovascular disease and LDL cholesterol levels of less than 70 mg per deciliter (1.81 mmol per liter), there was no incremental clinical benefit from the addition of niacin to statin therapy during a 36-month follow-up period
+effect: cardiovascular-health
+study_role: primary-outcome
+direction: no-change
+strength: none
+dosage:
+  unit: milligram
+  min: 1500
+  max: 2000

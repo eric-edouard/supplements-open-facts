@@ -1,0 +1,13 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1177/20503121211014073
+
+paper_quotes:
+  abstract:
+    - "Vitamin D has shown antimicrobial as well as anti-inflammatory properties. While SARS-CoV-2 promotes the release of proinflammatory cytokines, vitamin D attenuates the release of at least some of these same molecules."
+    - "Therefore, the goals of this article are as follows: first, present the numerous roles vitamin D plays in modulating the immune response"
+
+effect: immune-function
+study_role: primary-outcome
+direction: increase
+strength: moderate

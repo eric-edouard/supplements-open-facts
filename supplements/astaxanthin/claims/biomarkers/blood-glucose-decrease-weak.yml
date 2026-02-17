@@ -1,0 +1,13 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.5114/aoms.2015.50960
+
+paper_quotes:
+  abstract:
+    - "A random-effect meta-analysis of data from 7 RCTs (10 treatment arms) did not show any significant effect of supplementation with astaxanthin on glucose (WMD: –2.65 mg/dl, 95% CI: –5.84 to +0.54, p = 0.103)"
+    - "This meta-analysis of data from 10 RCT arms did not indicate a significant effect of supplementation with astaxanthin on plasma lipid profile, but a slight glucose-lowering effect was observed"
+
+biomarker: blood-glucose
+direction: decrease
+strength: weak
+p_value: 0.103

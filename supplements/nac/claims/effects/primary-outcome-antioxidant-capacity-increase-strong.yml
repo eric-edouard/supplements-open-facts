@@ -1,0 +1,15 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.3390/antiox10060967
+paper_quotes:
+  abstract:
+    - Its remarkable antioxidant and anti-inflammatory capacity is the
+      biochemical basis used to treat several diseases related to oxidative
+      stress and inflammation
+    - The primary role of NAC as an antioxidant stems from its ability to
+      increase the intracellular concentration of glutathione (GSH), which is
+      the most crucial biothiol responsible for cellular redox imbalance
+effect: antioxidant-capacity
+study_role: primary-outcome
+direction: increase
+strength: strong

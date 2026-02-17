@@ -1,0 +1,16 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1186/1550-2783-10-39
+paper_quotes:
+  abstract:
+    - No differences were found in performance variables (BP, BS, VJ) between
+      groups, except there was a trend (p = .07) for increased VJ power in BET
+      versus PL
+    - betaine group (BET; n = 11; 2.5 g/day)
+effect: muscle-strength
+study_role: primary-outcome
+direction: no-change
+strength: none
+dosage:
+  unit: gram
+  value: 2500

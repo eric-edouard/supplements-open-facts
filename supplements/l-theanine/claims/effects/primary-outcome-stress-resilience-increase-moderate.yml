@@ -1,0 +1,21 @@
+created: 2025-05-29
+contributor: https://github.com/eric-edouard
+paper: 10.1007/s40120-021-00284-x
+paper_quotes:
+  abstract:
+    - A single dose of AlphaWave®l-Theanine significantly increased frontal
+      region alpha power compared to placebo in response to an acute stress
+      challenge. These changes are indicative of relaxation in the brain and
+      suggest a calming response
+    - The changes in alpha wave activity are supported by greater decreases in
+      salivary cortisol 1 h post-dose (p < 0.001) with AlphaWave®l-Theanine
+      compared to placebo
+    - A single dose of AlphaWave®l-Theanine (200 mg) or placebo was administered
+effect: stress-resilience
+study_role: primary-outcome
+direction: increase
+strength: moderate
+dosage:
+  min: 200
+  max: 200
+  unit: milligram

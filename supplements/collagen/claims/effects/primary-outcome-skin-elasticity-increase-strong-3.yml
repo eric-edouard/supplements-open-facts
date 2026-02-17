@@ -1,0 +1,17 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.1155/2024/8752787
+paper_quotes:
+  abstract:
+    - Following 12 weeks daily use of the AC supplement, using confocal
+      microscopy, we observed a significant 44.6% decrease in fragmentation vs.
+      placebo (p < 0.01)
+    - We also measured a change in the ultrasound LEP (low echogenic pixel)
+      ratio comparing upper and lower dermis (−9.24 vs. −7.83, respectively,
+      p=0.05), suggesting collagen improvements occurred more in the upper
+      dermal compartment
+effect: skin-elasticity
+study_role: primary-outcome
+direction: increase
+strength: strong
+p_value: 0.01

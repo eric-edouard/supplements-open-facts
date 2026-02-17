@@ -1,0 +1,19 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1002/ptr.7598
+paper_quotes:
+  abstract:
+    - "We found that Ashwagandha supplementation significantly reduced anxiety
+      (SMD: −1.55, 95% CI: −2.37, −0.74; p = .005; I2 = 93.8%)"
+    - the non‐linear dose–response analysis indicated a favorable effect of
+      Ashwagandha supplementation on anxiety until 12,000 mg/d and stress at
+      dose of 300–600 mg/d
+effect: anxiety
+study_role: primary-outcome
+direction: decrease
+strength: strong
+dosage:
+  unit: milligram
+  min: 300
+  max: 600
+p_value: 0.005

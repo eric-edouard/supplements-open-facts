@@ -1,0 +1,16 @@
+created: 2025-01-29
+contributor: https://github.com/eric-edouard
+paper: 10.3389/fpsyt.2023.1333261
+paper_quotes:
+  abstract:
+    - "Our findings from the meta-analysis showed a significant decline in
+      depression scores due to intervention with magnesium supplements
+      [standardized mean difference (SMD): −0.919, 95% CI: −1.443 to −0.396, p =
+      0.001]"
+    - Our review suggests that magnesium supplementation can have a beneficial
+      effect on depression
+effect: depression-symptoms
+study_role: primary-outcome
+direction: decrease
+strength: strong
+p_value: 0.001

@@ -1,0 +1,12 @@
+created: 2025-01-27
+contributor: https://github.com/eric-edouard
+paper: 10.1126/science.abn9257
+paper_quotes:
+  abstract:
+    - Mechanistically, taurine reduced cellular senescence, protected against
+      telomerase deficiency, suppressed mitochondrial dysfunction, decreased DNA
+      damage, and attenuated inflammaging
+effect: cellular-senescence
+study_role: primary-outcome
+direction: decrease
+strength: strong
