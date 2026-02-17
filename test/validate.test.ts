@@ -50,7 +50,7 @@ describe("safeTryCatch utilities", () => {
 	});
 });
 
-describe("paper_quotes validation", () => {
+describe("groundings validation", () => {
 	const Ajv = require("ajv");
 	const addFormats = require("ajv-formats");
 
@@ -64,7 +64,7 @@ describe("paper_quotes validation", () => {
 		vi.clearAllMocks();
 	});
 
-	it("should validate effect claim with paper_quotes", async () => {
+	it("should validate effect claim with groundings", async () => {
 		// Mock successful DOI check
 		vi.mocked(axios.head).mockResolvedValue({ status: 200 } as AxiosResponse);
 
@@ -84,7 +84,7 @@ describe("paper_quotes validation", () => {
 		expect(result).toBeNull();
 	});
 
-	it("should validate biomarker claim with paper_quotes", async () => {
+	it("should validate biomarker claim with groundings", async () => {
 		// Mock successful DOI check
 		vi.mocked(axios.head).mockResolvedValue({ status: 200 } as AxiosResponse);
 
@@ -104,7 +104,7 @@ describe("paper_quotes validation", () => {
 		expect(result).toBeNull();
 	});
 
-	it("should accept claims without paper_quotes (optional field)", async () => {
+	it("should accept claims without groundings (optional field)", async () => {
 		// Mock successful DOI check
 		vi.mocked(axios.head).mockResolvedValue({ status: 200 } as AxiosResponse);
 

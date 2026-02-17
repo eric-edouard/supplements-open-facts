@@ -163,35 +163,45 @@ primary-outcome-muscle-strength-increase-strong-2.yml
 | `created` | ✔︎ | date created |
 | `contributor` | ✔︎ | email / github link profile |
 | `paper` | ✔︎ | DOI |
-| `paper_quotes` | - | verbatim quotes from the paper supporting the claim |
+| `groundings` | - | array of grounding objects linking quotes to claim fields |
 | `misc` | - | free text |
 
-### Paper Quotes Structure
+### Groundings
 
-The `paper_quotes` field allows you to include verbatim quotes from the paper that support the claim:
+The `groundings` field provides source provenance for each claim field, inspired by [google/langextract](https://github.com/google/langextract). Each grounding ties a verbatim quote from the paper to the specific claim field(s) it supports.
 
-```yaml
-paper_quotes:
-  abstract:
-    - "First quote from abstract"
-    - "Second quote from abstract"
-  paper_content:
-    - "Quote from the paper body"
-    - "Another quote from methods or results"
-```
+#### Grounding object schema
 
-Example: 
+| field | type | required | description |
+|-------|------|----------|-------------|
+| `fields` | string[] | yes | Which claim field(s) this quote supports |
+| `quote` | string | yes | Verbatim text from the paper |
+| `source` | enum | yes | `abstract` or `paper_content` |
+| `char_start` | integer | no | Start character offset in source text (machine extraction only) |
+| `char_end` | integer | no | End character offset in source text (machine extraction only) |
+| `alignment` | enum | no | `exact` or `fuzzy` (machine extraction only) |
+
+- `fields` is an array because one quote often supports multiple fields (e.g. a quote about "increased by 23% (p=0.02)" supports both `direction` and `p_value`)
+- `char_start`, `char_end`, and `alignment` are only populated by machine extraction pipelines. Human contributors just need `fields`, `quote`, and `source`
+
+#### Example
+
 ```yaml
 created: 2025-05-18
 contributor: alice@example.com
 paper: 10.1038/s41586-2024-00001
 
-# Optional paper quotes
-paper_quotes:
-  abstract:
-    - "Creatine supplementation significantly increased muscle strength by 23% (p<0.05)"
-  paper_content:
-    - "Muscle biopsies showed 35% increase in phosphocreatine stores"
+# Groundings — each quote is linked to the claim fields it supports
+groundings:
+  - fields: [direction, strength]
+    quote: "significantly increased muscle strength by 23% (p=0.02)"
+    source: abstract
+  - fields: [dosage]
+    quote: "5g/day for 6 weeks"
+    source: abstract
+  - fields: [description]
+    quote: "Muscle biopsies showed 35% increase in phosphocreatine stores"
+    source: paper_content
 
 # --- type‑specific keys follow ---
 ```

@@ -9,21 +9,24 @@
 		"target": { "type": "string" },
 		"danger_level": { "enum": ["low", "mild", "severe"] },
 		"description": { "type": "string" },
-		"paper_quotes": {
-			"type": "object",
-			"properties": {
-				"abstract": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
+		"groundings": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["fields", "quote", "source"],
+				"properties": {
+					"fields": {
+						"type": "array",
+						"items": { "type": "string" },
+						"minItems": 1
+					},
+					"quote": { "type": "string" },
+					"source": { "enum": ["abstract", "paper_content"] },
+					"char_start": { "type": "integer", "minimum": 0 },
+					"char_end": { "type": "integer", "minimum": 0 },
+					"alignment": { "enum": ["exact", "fuzzy"] }
 				},
-				"paper_content": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				}
+				"additionalProperties": false
 			}
 		}
 	}

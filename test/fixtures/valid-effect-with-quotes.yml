@@ -11,10 +11,16 @@ effect_size: "Cohen's d = 0.8"
 dosage_min: 3
 dosage_max: 5
 timing: pre-exercise
-paper_quotes:
-  abstract:
-    - "Creatine supplementation (5g/day for 6 weeks) significantly increased maximal voluntary contraction force by 23% compared to placebo (p=0.02)."
-    - "The intervention group showed marked improvements in muscle strength parameters across all tested muscle groups."
-  paper_content:
-    - "Analysis of muscle biopsies revealed a 35% increase in phosphocreatine stores following the supplementation protocol."
-    - "Participants reported subjective improvements in workout performance, with 87% noting increased ability to complete high-intensity sets."
+groundings:
+  - fields: [direction, strength]
+    quote: "Creatine supplementation (5g/day for 6 weeks) significantly increased maximal voluntary contraction force by 23% compared to placebo (p=0.02)."
+    source: abstract
+  - fields: [dosage]
+    quote: "The intervention group showed marked improvements in muscle strength parameters across all tested muscle groups."
+    source: abstract
+  - fields: [description]
+    quote: "Analysis of muscle biopsies revealed a 35% increase in phosphocreatine stores following the supplementation protocol."
+    source: paper_content
+  - fields: [effect_size]
+    quote: "Participants reported subjective improvements in workout performance, with 87% noting increased ability to complete high-intensity sets."
+    source: paper_content
