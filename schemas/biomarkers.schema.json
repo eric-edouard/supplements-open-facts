@@ -56,21 +56,24 @@
 			"type": "string",
 			"enum": ["upon-waking", "morning", "afternoon", "evening", "bedtime", "pre-meal", "with-meal", "post-meal", "between-meals", "empty-stomach", "pre-exercise", "intra-exercise", "post-exercise"]
 		},
-		"paper_quotes": {
-			"type": "object",
-			"properties": {
-				"abstract": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
+		"groundings": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["fields", "quote", "source"],
+				"properties": {
+					"fields": {
+						"type": "array",
+						"items": { "type": "string" },
+						"minItems": 1
+					},
+					"quote": { "type": "string" },
+					"source": { "enum": ["abstract", "paper_content"] },
+					"char_start": { "type": "integer", "minimum": 0 },
+					"char_end": { "type": "integer", "minimum": 0 },
+					"alignment": { "enum": ["exact", "fuzzy"] }
 				},
-				"paper_content": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				}
+				"additionalProperties": false
 			}
 		}
 	}

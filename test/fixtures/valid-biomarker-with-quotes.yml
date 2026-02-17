@@ -7,9 +7,10 @@ strength: moderate
 dosage_min: 5
 dosage_max: 10
 timing: morning
-paper_quotes:
-  abstract:
-    - "Daily supplementation resulted in a mean testosterone increase of 15% over baseline levels (p=0.04)."
-  paper_content:
-    - "Serum testosterone levels measured at 8-week follow-up showed sustained elevation in the treatment group."
-    - "No adverse effects on estrogen levels were observed during the study period."
+groundings:
+  - fields: [direction, strength]
+    quote: "Daily supplementation resulted in a mean testosterone increase of 15% over baseline levels (p=0.04)."
+    source: abstract
+  - fields: [biomarker]
+    quote: "Serum testosterone levels measured at 8-week follow-up showed sustained elevation in the treatment group."
+    source: paper_content
