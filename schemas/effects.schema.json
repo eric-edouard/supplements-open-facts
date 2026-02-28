@@ -11,7 +11,7 @@
 		"strength"
 	],
 	"properties": {
-		"created": { "type": "string" },
+		"created": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
 		"contributor": { "type": "string" },
 		"paper": { "type": "string" },
 		"effect": { "type": "string" },

@@ -145,6 +145,50 @@ describe("loadVocabulary", () => {
 	});
 });
 
+describe("date format validation", () => {
+	const Ajv = require("ajv");
+	const addFormats = require("ajv-formats");
+
+	const testFixturesDir = path.join(process.cwd(), "test", "fixtures");
+
+	const ajv = new Ajv({ allErrors: true, strict: false });
+	addFormats(ajv);
+
+	beforeEach(() => {
+		vi.clearAllMocks();
+	});
+
+	it("should reject DD-MM-YYYY date format", async () => {
+		const schema = await loadSchema("effects");
+		const validateFn = ajv.compile(schema);
+		const filePath = path.join(testFixturesDir, "invalid-date-effect.yml");
+
+		const result = await validateYAML(filePath, validateFn, false);
+
+		expect(result).not.toBeNull();
+		expect(result?.errors[0].message).toContain("pattern");
+	});
+
+	it("should accept ISO 8601 (YYYY-MM-DD) date format", async () => {
+		vi.mocked(axios.head).mockResolvedValue({ status: 200 } as AxiosResponse);
+
+		const effectsVocab = await loadVocabulary(
+			"test-effects-vocab",
+			path.join(process.cwd(), "test", "fixtures"),
+		);
+		const schema = await loadSchema("effects");
+		const validateFn = ajv.compile(schema);
+		const filePath = path.join(testFixturesDir, "valid-effect.yml");
+
+		const result = await validateYAML(filePath, validateFn, true, {
+			field: "effect",
+			vocabulary: effectsVocab,
+		});
+
+		expect(result).toBeNull();
+	});
+});
+
 describe("vocabulary validation integration", () => {
 	const Ajv = require("ajv");
 	const addFormats = require("ajv-formats");

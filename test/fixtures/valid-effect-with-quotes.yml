@@ -8,8 +8,10 @@ description: "Increases maximal voluntary contraction force"
 strength: strong
 p_value: 0.02
 effect_size: "Cohen's d = 0.8"
-dosage_min: 3
-dosage_max: 5
+dosage:
+  min: 3
+  max: 5
+  unit: "gram"
 timing: pre-exercise
 paper_quotes:
   abstract:

@@ -1,0 +1,13 @@
+created: 18-05-2025
+contributor: test@example.com
+paper: 10.1038/nature.2024.001
+
+effect: muscle-strength
+kind: intended
+direction: positive
+description: "Test effect with bad date format"
+strength: strong
+dosage:
+  min: 3
+  max: 5
+  unit: "gram"
